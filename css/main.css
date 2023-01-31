@@ -1,0 +1,17 @@
+.containter__destinations {
+    display: flex;
+    flex-direction: row;
+}
+
+.image__hawaii, .image__iceland, .image__greece {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.hawaii {
+    background-image: url(/assets/Images/hawaii.jpg);
+    width: 100px;
+    height: 200px;
+}
