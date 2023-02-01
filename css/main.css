@@ -1,18 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
 }
 
 a {
     text-decoration: none;
 }
 
+
+
+.navbar {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.nav__pages-list {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav__pages-list-item {
+    margin-right: 1rem;
+    
+}
+
 .hero {
- display: inline-block;
+ display: flex;
+ flex-direction: column;
+ background-color: #FEFAF5;
+
+ 
+}
+
+.hero__title {
+    font-size: 33px;
+    margin-right: 45rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.hero__description {
+    font-size: 14px;
+    margin-right: 40rem;
+    margin-left: 5rem;
+
+}
+
+.hero__btn {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    background-color: #DB7A4E;
+    text-align: center;
+    width: 145px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 14px;
+    
 }
 
 .hero__logo {
-    width: 40%;
-    
+    width: 32%;
+    position: relative;
+    left: 40rem;
+    bottom: 17rem;
+}
+
+.recommendations {
+   margin-top: 3rem;
 }
 
 .destinations {
@@ -78,6 +141,7 @@ a {
 .info-item {
     display: flex;
     flex-direction: row;
+    
     
 }
 
