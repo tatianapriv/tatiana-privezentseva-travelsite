@@ -9,21 +9,21 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav">
-        <h3 class="site__title">Travel Site</h3>
+    <header class="nav">
+      <nav class="nav__wrapper">
+        <h1 class="site__title">Travel Site</h1>
         <ul class="nav__pages-list">
-          <li class="nav__pages-list-item">
+          <li class="nav__pages-list-item nav__pages-link-item--highlight">
             <a class="nav__pages-link" href="./index.html">Home</a>
           </li>
           <li class="nav__pages-list-item">
             <a class="nav__pages-link" href="./pages/hawaii.html">Hawaii</a>
           </li>
           <li class="nav__pages-list-item">
-            <a class="nav__pages-link" href="./iceland.html">Iceland</a>
+            <a class="nav__pages-link" href="./pages/iceland.html">Iceland</a>
           </li>
           <li class="nav__pages-list-item">
-            <a class="nav__pages-link" href="./pages/menu.html">Greece</a>
+            <a class="nav__pages-link" href="./pages/greece.html">Greece</a>
           </li>
         </ul>
       </nav>
@@ -31,11 +31,10 @@
 
     <main>
       <section class="hero">
-        <div class="hero__wrapper">
+        <div class="wrapper-large">
           <div class="hero__box">
-            <h1 class="hero__title">
-              Travelling Comes With Endless Discoveries
-            </h1>
+            <h2 class="hero__title">
+              Travelling Comes With Endless Discoveries</h2>
             <p class="hero__description">
               Don't let your dreams be just dreams. Experience the world by
               booking a vacation with us now.
@@ -51,15 +50,15 @@
       </section>
 
       <section class="recommendations">
-        <h2 class="main__title">Recommendations</h2>
-        <div class="destinations">
-          <a class="box-hawaii" href="./pages/hawaii.html">
+        <h2 class="main__title wrapper-large">Recommendations</h2>
+        <div class="destinations wrapper-small">
+          <a class="box box--hawaii" href="./pages/hawaii.html">
             <h2 class="destination__name">Hawaii</h2>
           </a>
-          <a class="box-iceland" href="./pages/iceland.html">
+          <a class="box box--iceland" href="./pages/iceland.html">
             <h2 class="destination__name">Iceland</h2>
           </a>
-          <a class="box-greece" href="./pages/greece.html">
+          <a class="box box--greece" href="./pages/greece.html">
             <h2 class="destination__name">Greece</h2>
           </a>
         </div>
@@ -68,22 +67,24 @@
 
     <footer class="footer">
       <div>
-        <h2 class="info">Contact</h2>
-        <p class="info-item">
-          503 Broadway Penthouse <br />
-          New York
+        <h3 class="info">Contact</h3>
+        <p class="info__item">
+          Email <br />
+          info@travelsite.com
         </p>
       </div>
       <div>
-        <h2 class="info">Hours</h2>
-        <p class="info-item">
-          <span class="info-item-days">Monday - Friday:</span> 9:00 AM - 5:00 PM
+        <h3 class="info">Hours</h3>
+        <p class="info__item">
+          <span class="info__item-days">Monday - Friday:</span> 9:00 AM - 5:00 PM
           <br />
-          <span class="info-item-days">Saturday</span> 10:00 AM - 4:00 PM
+          <span class="info__item-days">Saturday</span> 10:00 AM - 4:00 PM 
+          <br/>
+          <span class="info__item-days">Sunday</span>Closed
         </p>
       </div>
       <div>
-        <h2 class="info">Social</h2>
+        <h3 class="info">Social</h3>
         <div class="logos">
           <a href="https://www.instagram.com">
             <img
