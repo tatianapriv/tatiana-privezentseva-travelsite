@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: 1px red solid;
 }
 
 body {
@@ -13,10 +14,10 @@ a {
 }
 
 .nav {
- background-color: #ffffff;
- position: fixed;
- width: 100vw;
- margin: 0 auto;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 .nav__wrapper {
@@ -31,13 +32,12 @@ a {
 .nav__pages-list {
   list-style: none;
   display: flex;
-  
+  padding-right: 2.2rem;
 }
 
 .nav__pages-list-item {
   margin-right: 1rem;
   padding-bottom: 0.3rem;
-  
 }
 
 .nav__pages-link-item--highlight {
@@ -50,7 +50,7 @@ a {
 }
 
 .site__title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding-left: 50px;
 }
 
@@ -58,7 +58,6 @@ a {
   background-color: #fefaf5;
   padding: 90px 0 70px 0;
 }
-
 
 .wrapper-large {
   max-width: 1200px;
@@ -69,7 +68,7 @@ a {
 }
 
 .hero__box {
-  padding-right: 130px;
+  padding-right: 100px;
   padding-left: 50px;
 }
 
@@ -95,6 +94,7 @@ a {
 .hero__logo {
   width: 40%;
   padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .main__title {
@@ -110,15 +110,10 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   padding-bottom: 5rem;
-  
-}
-
-.wrapper__small {
   max-width: 1000px;
   width: 100vw;
-  display: flex;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -128,12 +123,12 @@ a {
   justify-content: flex-end;
   background-position: center;
   background-size: cover;
-  width: 320px;
-  height: 30rem;
+  width: 280px;
+  height: 26rem;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
-
+  margin: 1rem;
 }
 
 .box--hawaii {
@@ -142,7 +137,6 @@ a {
 
 .box--iceland {
   background-image: url(../assets/Images/iceland.jpg);
-  
 }
 
 .box--greece {
@@ -159,14 +153,30 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
 }
 
-.info-item {
+.box__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.box__times {
+  display: flex;
+}
+
+.box__times-weekdays,
+.box__times-saturday,
+.box__times-sunday {
+  display: flex;
+  flex-direction: column;
+}
+
+.box__logos {
   display: flex;
   flex-direction: row;
 }
 
 .logos {
-  display: inline;
+  width: 30px;
+  height: 30px;
 }
