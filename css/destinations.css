@@ -1,0 +1,58 @@
+* {
+  border: 1px red solid;
+}
+.greece__info {
+  padding-top: 5rem;
+  background-image: url(../assets/Images/greece.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.greece__title {
+  font-size: 4rem;
+  padding-left: 5rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5rem;
+  max-width: 1000px;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 26rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 1.2rem;
+}
+
+.box--hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.box--iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+}
+
+.box--greece {
+  background-image: url(../assets/Images/greece.jpg);
+}
+
+.destination__name {
+  color: #fff;
+  margin-right: 5%;
+}
