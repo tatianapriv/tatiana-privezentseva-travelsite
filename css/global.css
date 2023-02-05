@@ -37,6 +37,11 @@ a {
 .nav__pages-list-item {
   margin-right: 1rem;
   padding-bottom: 0.3rem;
+  transition: 0.25s 0.5s;
+}
+
+.nav__pages-list-item:hover {
+  border-bottom: violet 2px solid;
 }
 
 .nav__pages-link-item--highlight {
@@ -85,8 +90,8 @@ a {
 }
 
 .logos {
-  width: 32px;
-  height: 30px;
+  width: 30px;
+  height: 28px;
 }
 
 .logos-facebook {
