@@ -43,7 +43,6 @@ a {
 .nav__pages-list-item:hover {
   border-bottom: violet 2px solid;
   transform: translateY(-3px);
-  
 }
 
 .nav__pages-link-item--highlight {
