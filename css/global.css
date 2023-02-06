@@ -37,11 +37,13 @@ a {
 .nav__pages-list-item {
   margin-right: 1rem;
   padding-bottom: 0.3rem;
-  transition: 0.25s 0.5s;
+  transition: 0.25s 0.25s;
 }
 
 .nav__pages-list-item:hover {
   border-bottom: violet 2px solid;
+  transform: translateY(-3px);
+  
 }
 
 .nav__pages-link-item--highlight {
@@ -56,6 +58,7 @@ a {
 .site__title {
   font-size: 1.2rem;
   padding-left: 50px;
+  color: #335576;
 }
 
 .footer {
